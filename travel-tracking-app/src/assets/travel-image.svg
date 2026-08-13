@@ -1,0 +1,51 @@
+<svg width="300" height="220" viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="300" height="220" rx="16" fill="#e0f2fe"/>
+
+  <!-- Sun -->
+  <circle cx="245" cy="45" r="20" fill="#fbbf24"/>
+
+  <!-- Ground -->
+  <rect x="0" y="180" width="300" height="40" fill="#86efac"/>
+
+  <!-- Road -->
+  <rect x="0" y="195" width="300" height="14" fill="#9ca3af"/>
+  <rect x="10" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="45" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="80" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="115" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="150" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="185" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="220" y="200" width="14" height="4" fill="#f3f4f6"/>
+  <rect x="255" y="200" width="14" height="4" fill="#f3f4f6"/>
+
+  <!-- Cloud -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="40" r="14"/>
+    <circle cx="78" cy="35" r="18"/>
+    <circle cx="96" cy="42" r="12"/>
+    <rect x="50" y="40" width="55" height="14" rx="7"/>
+  </g>
+
+  <!-- Airplane -->
+  <g transform="translate(150,60) rotate(15)">
+    <path d="M0 0 L60 10 L45 20 L0 15 Z" fill="#2563eb"/>
+    <path d="M20 5 L30 -18 L38 -16 L32 6 Z" fill="#3b82f6"/>
+    <path d="M25 15 L18 30 L26 30 L34 17 Z" fill="#3b82f6"/>
+    <circle cx="58" cy="11" r="3" fill="#1d4ed8"/>
+  </g>
+
+  <!-- Suitcase -->
+  <g transform="translate(150,150)">
+    <rect x="0" y="10" width="60" height="42" rx="6" fill="#22c55e"/>
+    <rect x="20" y="0" width="20" height="12" rx="3" fill="#16a34a"/>
+    <rect x="6" y="26" width="48" height="6" fill="#15803d"/>
+    <circle cx="8" cy="56" r="4" fill="#374151"/>
+    <circle cx="52" cy="56" r="4" fill="#374151"/>
+  </g>
+
+  <!-- Location pin -->
+  <g transform="translate(90,140)">
+    <path d="M12 0 C4 0 0 6 0 13 C0 22 12 38 12 38 C12 38 24 22 24 13 C24 6 20 0 12 0 Z" fill="#ef4444"/>
+    <circle cx="12" cy="13" r="6" fill="#ffffff"/>
+  </g>
+</svg>
